@@ -1,11 +1,11 @@
-import numpy as np
-import datetime
+from DBReader import DBReader
 
-
-def main():
-    print("hello world!!!")
+class Main:
+    def __init__(self) :
+        self.reader = DBReader()
 
 
 
 if __name__ == "__main__":  # only execute if not imported
-    main()
+    main = Main()
+
