@@ -130,4 +130,5 @@ dmypy.json
 
 #ignore data files
 data/
+charts/
 

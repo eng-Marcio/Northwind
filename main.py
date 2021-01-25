@@ -1,8 +1,10 @@
 from DBReader import DBReader
+from simple_drawer import SimpleDrawer
 
 class Main:
     def __init__(self) :
-        self.reader = DBReader()
+        self.dataset = DBReader()
+        self.simpleDrawer = SimpleDrawer(self.dataset)
 
 
 
